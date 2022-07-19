@@ -1,0 +1,275 @@
+body {
+    background-color: #03060f;
+    font-family: "Nunito Sans";
+    margin: 0;
+}
+
+.header-line {
+    display: flex;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.header-line ul {
+    display: flex;
+    list-style: none;
+}
+
+.header-line li a {
+    padding-right: 50px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 95px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Nunito Sans";
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.header-line li a:hover{
+    text-decoration: overline underline;
+}
+
+.logo img {
+    padding: 50px;
+    margin-right: 270px;
+}
+
+.burger-wrap {
+    position: relative;
+    margin-left: 220px;
+    background-color: #03060f;
+    width: 55px;
+    height: 55px;
+    border-radius: 9px;
+    box-shadow: -5px -4px 25px 4px rgba(18, 42, 101, .95);
+}
+
+.burger-wrap::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -2px;
+    left: -2px;
+    width: 59px;
+    height: 59px;
+    background: linear-gradient(155deg, #112d6d 40%, transparent);
+    border-radius: 9px;
+}
+
+.burger-line {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.burger-line,
+.burger-line::before,
+.burger-line::after {
+    position: absolute;
+    width: 40px;
+    height: 3px;
+    background-color: #fff;
+
+}
+
+.burger-line::before,
+.burger-line::after {
+    content: "";
+    left: 0;
+
+}
+
+.burger-line::before {
+    top: -10px;
+}
+
+.burger-line::after {
+    top: 10px;
+}
+
+h1 {
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 30px;
+    letter-spacing: 3px;
+    line-height: 55px;
+    color: #ffffff;
+    font-weight: 400;
+    margin: 0 100px 50px 50px;
+}
+
+.main-content {
+    background: url(/img/Шар\ 1.png) no-repeat;
+    display: flex;
+    background-position: right;
+    height: 700px;
+}
+
+.main-content-1 p {
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 400;
+    max-width: 520px;
+    margin: 0 0 50px 50px;
+}
+
+.main-content-1 a {
+    position: relative;
+    background-color: #03060f;
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 95px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 16px;
+    margin-left: 50px;
+    padding: 10px 25px;
+}
+
+.main-content-1 a::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -2px;
+    left: -2px;
+    width: 180px;
+    height: 45px;
+    background: linear-gradient(155deg, #112d6d, transparent);
+    border-radius: 16px;
+    box-shadow: -5px -4px 25px 4px rgba(18, 42, 101, 0.72);
+}
+.main-content-1 a:hover,
+.burger-wrap:hover{
+    box-shadow: 6px 5px 15px 5px rgba(18, 42, 101, 0.72);
+}
+
+.main-bg {
+    display: flex;
+}
+
+.main-bg h2 {
+    font-size: 30px;
+    letter-spacing: 3px;
+    line-height: 95px;
+    color: #ffffff;
+    font-weight: 600;
+    margin-right: 30px;
+    margin-left: 130px;
+    margin-top: -25px;
+}
+
+.main-bg p {
+    margin-top: -20px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 95px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.main-line {
+    display: flex;
+}
+
+.info {
+    display: flex;
+    margin: 0;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 70px;
+
+}
+
+.info h3 {
+    margin: 0;
+    font-size: 30px;
+    letter-spacing: 3px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.info p {
+    font-size: 19px;
+    letter-spacing: 2px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 400;
+    margin: 0;
+
+}
+
+.mi {
+    border-right: 1px solid #fff;
+    padding: 0 20px 0 40px;
+}
+
+.s,
+.mph {
+    margin-left: 20px;
+    border-right: 1px solid #fff;
+    padding-right: 20px;
+}
+
+.hp {
+    margin-left: 20px;
+}
+
+.points {
+    position: relative;
+    background-color: #03060f;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin-left: 330px;
+    margin-top: 80px;
+}
+
+.point::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: 16px;
+    height: 16px;
+    background: linear-gradient(150deg, #03060f, #0d2356);
+    border-radius: 50%;
+    box-shadow: -2px -1px 17px 6px rgba(18, 42, 101, 0.72);
+}
+
+.point-1 {
+    margin-left: 45px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.point-1,
+.point-1::before,
+.point-1::after {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: linear-gradient(150deg, #0b132f , #0d2356);
+    border-radius: 50%;
+}
+
+.point-1::before,
+.point-1::after {
+    content: "";
+    left: 0;
+
+}
+
+.point-1::before {
+    left: -20px;
+}
+
+.point-1::after {
+    left: 20px;
+}
