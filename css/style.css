@@ -100,7 +100,7 @@ h1 {
 }
 
 .main-content {
-    background: url(/img/Шар\ 1.png) no-repeat;
+    background: url(../img/Шар\ 1.png) no-repeat;
     display: flex;
     background-position: right;
     height: 700px;
