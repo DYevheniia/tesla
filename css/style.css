@@ -6,6 +6,7 @@ body {
 
 .header-line {
     display: flex;
+    justify-content: space-around;
     align-items: center;
     margin-bottom: 150px;
 }
@@ -98,12 +99,14 @@ h1 {
     font-weight: 400;
     margin: 0 100px 50px 50px;
 }
+main{
+    background: url(../img/Шар\ 1.png) no-repeat right;
+    background-position: right 0 top -200px;
+}
 
 .main-content {
-    background: url(../img/Шар\ 1.png) no-repeat;
     display: flex;
-    background-position: right;
-    height: 700px;
+    min-height: 400px;
 }
 
 .main-content-1 p {
